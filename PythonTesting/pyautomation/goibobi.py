@@ -19,6 +19,7 @@ for city in cities:
         break
 time.sleep(2)
 
+<<<<<<< HEAD
 driver.find_elements_by_css_selector("//p[text()='Pune, India']").click()
 
 
@@ -29,3 +30,6 @@ def kannan(self):
     print("Janaranjani Mohan")
 
 
+=======
+driver.find_elements_by_css_selector("//p[text()='Pune, India']").click()
+>>>>>>> e58f6d699cbc0d66245dca0be3c81097ef491403
