@@ -23,13 +23,11 @@ time.sleep(2)
 driver.find_elements_by_css_selector("//p[text()='Pune, India']").click()
 
 
+driver.find_elements_by_css_selector("//p[text()='Pune, India']").click()
+
 def dinsh(self):
     print("Dinesh Kannan")
 
 def kannan(self):
     print("Janaranjani Mohan")
-
-
-=======
-driver.find_elements_by_css_selector("//p[text()='Pune, India']").click()
->>>>>>> e58f6d699cbc0d66245dca0be3c81097ef491403
+    print("C S Kannan")
