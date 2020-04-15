@@ -14,3 +14,11 @@ print(driver.find_elements_by_xpath("//h3").text)
 #assert "Opening a new window" == driver.find_elements_by_xpath("//h3[@xpath='1']")
 print("There has been a change in the code")
 print("There will be a change in the code")
+
+
+
+print("There has been a change in the code")
+print("There will be a change in the code")
+print("There has been a change in the code")
+print("There will be a change in the code")
+
