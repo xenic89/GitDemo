@@ -1,0 +1,22 @@
+2020-04-08 23:37:41,695 :INFO :pytetdemo.test_logging :Information statement 
+2020-04-08 23:37:41,695 :WARNING :pytetdemo.test_logging :Something is in warning mode 
+2020-04-08 23:37:41,695 :ERROR :pytetdemo.test_logging :A Major error has happened 
+2020-04-08 23:37:41,696 :CRITICAL :pytetdemo.test_logging :Something is blocking the execution 
+2020-04-08 23:39:35,850 :DEBUG :pytetdemo.test_logging :A debug statement is executed 
+2020-04-08 23:39:35,851 :INFO :pytetdemo.test_logging :Information statement 
+2020-04-08 23:39:35,851 :WARNING :pytetdemo.test_logging :Something is in warning mode 
+2020-04-08 23:39:35,851 :ERROR :pytetdemo.test_logging :A Major error has happened 
+2020-04-08 23:39:35,851 :CRITICAL :pytetdemo.test_logging :Something is blocking the execution 
+2020-04-08 23:50:14,998 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:50:14,998 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:53:49,830 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:53:49,830 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:54:44,764 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:54:44,764 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:57:25,128 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:57:25,128 :INFO :pytetdemo.BaseClass :Dinesh 
+2020-04-08 23:57:25,148 :DEBUG :pytetdemo.test_logging :A debug statement is executed 
+2020-04-08 23:57:25,148 :INFO :pytetdemo.test_logging :Information statement 
+2020-04-08 23:57:25,148 :WARNING :pytetdemo.test_logging :Something is in warning mode 
+2020-04-08 23:57:25,148 :ERROR :pytetdemo.test_logging :A Major error has happened 
+2020-04-08 23:57:25,148 :CRITICAL :pytetdemo.test_logging :Something is blocking the execution 

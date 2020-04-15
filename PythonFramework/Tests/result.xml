@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="Dinesh" name="pytest" skipped="0" tests="2" time="32.912" timestamp="2020-04-15T15:09:44.400061"><testcase classname="test_HomePage.TestHomePage" file="test_HomePage.py" line="12" name="test_formSubmit[getData0]" time="10.967"><failure message="KeyError: &apos;FName&apos;">self = &lt;Tests.test_HomePage.TestHomePage object at 0x0467FB80&gt;
+getData = {&apos;Fname&apos;: &apos;Dinesh&apos;, &apos;Gender&apos;: &apos;Male&apos;, &apos;Lname&apos;: &apos;Kannan&apos;}
+
+    def test_formSubmit(self, getData):
+        homePage = HomePage(self.driver)
+&gt;       homePage.enter_Name().send_keys(getData[&quot;FName&quot;])
+E       KeyError: &apos;FName&apos;
+
+test_HomePage.py:15: KeyError</failure></testcase><testcase classname="test_e2e.TestOne" file="test_e2e.py" line="15" name="test_e2e" time="19.829"></testcase></testsuite></testsuites>

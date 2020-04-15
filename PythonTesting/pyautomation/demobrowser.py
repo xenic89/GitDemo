@@ -1,0 +1,15 @@
+from selenium import webdriver
+
+#driver = webdriver.Chrome(executable_path="D:\\PyCharm Community Edition 2019.3.3\\chromedriver.exe")
+#driver = webdriver.Firefox(executable_path="D:\\PyCharm Community Edition 2019.3.3\\geckodriver.exe")
+driver = webdriver.Edge(executable_path="D:\\PyCharm Community Edition 2019.3.3\\msedgedriver.exe")
+driver.maximize_window()
+driver.get("https://rahulshettyacademy.com/")
+print(driver.title)
+print(driver.current_url)
+driver.get("https://rahulshettyacademy.com/AutomationPractice")
+#driver.minimize_window()
+driver.back()
+driver.forward()
+driver.refresh()
+driver.close()

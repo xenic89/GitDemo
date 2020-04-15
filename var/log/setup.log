@@ -1,0 +1,254 @@
+2020/04/14 17:45:57 Starting cygwin install, version 2.904
+2020/04/14 17:45:57 User has backup/restore rights
+2020/04/14 17:45:57 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2020/04/14 17:45:57 Current Directory: D:\Downloads
+2020/04/14 17:45:57 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2020/04/14 17:46:02 source: network install
+2020/04/14 17:46:24 root: C:\Users\acer\PycharmProjects system
+2020/04/14 17:46:26 Selected local directory: D:\Downloads
+2020/04/14 17:46:30 net: Preconfig
+2020/04/14 17:46:39 site: http://cygwin.mirror.constant.com/
+2020/04/14 17:46:40 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst.sig
+2020/04/14 17:46:41 HTTP status 404 fetching http://cygwin.mirror.constant.com/x86_64/setup.zst
+2020/04/14 17:46:44 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2020/04/14 17:46:44 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2020/04/14 17:46:44 solving: 37 tasks, update: yes, use test packages: no
+2020/04/14 17:46:51 solving: 72 tasks, update: no, use test packages: no
+2020/04/14 17:46:51 Augmented Transaction List:
+2020/04/14 17:46:51    0 install base-cygwin     3.8-1          
+2020/04/14 17:46:51    1 install cygwin          3.1.4-1        
+2020/04/14 17:46:51    2 install libpipeline1    1.5.1-1        
+2020/04/14 17:46:51    3 install libpopt-common  1.16-2         
+2020/04/14 17:46:51    4 install terminfo        6.1-1.20190727 
+2020/04/14 17:46:51    5 install tzdata          2019c-1        
+2020/04/14 17:46:51    6 install zlib0           1.2.11-1       
+2020/04/14 17:46:51    7 install which           2.20-2         
+2020/04/14 17:46:51    8 install run             1.3.4-2        
+2020/04/14 17:46:51    9 install mintty          3.1.4-1        
+2020/04/14 17:46:51   10 install login           1.13-1         
+2020/04/14 17:46:51   11 install libtasn1_6      4.14-1         
+2020/04/14 17:46:51   12 install libsigsegv2     2.10-2         
+2020/04/14 17:46:51   13 install libpcre1        8.44-1         
+2020/04/14 17:46:51   14 install liblzma5        5.2.4-1        
+2020/04/14 17:46:51   15 install libiconv2       1.14-3         
+2020/04/14 17:46:51   16 install libgmp10        6.2.0-2        
+2020/04/14 17:46:51   17 install libgcc1         9.3.0-1        
+2020/04/14 17:46:51   18 install libffi6         3.2.1-2        
+2020/04/14 17:46:51   19 install libbz2_1        1.0.8-1        
+2020/04/14 17:46:51   20 install libargp         20110921-3     
+2020/04/14 17:46:51   21 install ipc-utils       1.0-2          
+2020/04/14 17:46:51   22 install hostname        3.13-1         
+2020/04/14 17:46:51   23 install editrights      1.03-1         
+2020/04/14 17:46:51   24 install dash            0.5.9.1-1      
+2020/04/14 17:46:51   25 install terminfo-extra  6.1-1.20190727 
+2020/04/14 17:46:51   26 install file            5.32-1         
+2020/04/14 17:46:51   27 install libintl8        0.19.8.1-2     
+2020/04/14 17:46:51   28 install libstdc++6      9.3.0-1        
+2020/04/14 17:46:51   29 install libmpfr6        4.0.2-2p6      
+2020/04/14 17:46:51   30 install getent          2.18.90-4      
+2020/04/14 17:46:51   31 install _autorebase     001007-1       
+2020/04/14 17:46:51   32 install libncursesw10   6.1-1.20190727 
+2020/04/14 17:46:51   33 install sed             4.4-1          
+2020/04/14 17:46:51   34 install libuuid1        2.33.1-2       
+2020/04/14 17:46:51   35 install libsmartcols1   2.33.1-2       
+2020/04/14 17:46:51   36 install libpopt0        1.16-2         
+2020/04/14 17:46:51   37 install libp11-kit0     0.23.20-1      
+2020/04/14 17:46:51   38 install libiconv        1.14-3         
+2020/04/14 17:46:51   39 install libgdbm4        1.13-1         
+2020/04/14 17:46:51   40 install libattr1        2.4.48-2       
+2020/04/14 17:46:51   41 install diffutils       3.5-2          
+2020/04/14 17:46:51   42 install alternatives    1.3.30c-10     
+2020/04/14 17:46:51   43 install vim-minimal     8.2.0486-1     
+2020/04/14 17:46:51   44 install ncurses         6.1-1.20190727 
+2020/04/14 17:46:51   45 install libreadline7    7.0.3-3        
+2020/04/14 17:46:51   46 install less            551-1          
+2020/04/14 17:46:51   47 install info            6.7-1          
+2020/04/14 17:46:51   48 install libblkid1       2.33.1-2       
+2020/04/14 17:46:51   49 install cygutils        1.4.16-2       
+2020/04/14 17:46:51   50 install p11-kit-trust   0.23.20-1      
+2020/04/14 17:46:51   51 install p11-kit         0.23.20-1      
+2020/04/14 17:46:51   52 install gawk            5.0.1-1        
+2020/04/14 17:46:51   53 install coreutils       8.26-2         
+2020/04/14 17:46:51   54 install libfdisk1       2.33.1-2       
+2020/04/14 17:46:51   55 install bash            4.4.12-3       
+2020/04/14 17:46:51   56 install util-linux      2.33.1-2       
+2020/04/14 17:46:51   57 install tzcode          2019c-1        
+2020/04/14 17:46:51   58 install xz              5.2.4-1        
+2020/04/14 17:46:51   59 install gzip            1.8-1          
+2020/04/14 17:46:51   60 install groff           1.22.4-1       
+2020/04/14 17:46:51   61 install grep            3.0-2          
+2020/04/14 17:46:51   62 install findutils       4.6.0-1        
+2020/04/14 17:46:51   63 install crypto-policies 20190218-1     
+2020/04/14 17:46:51   64 install ca-certificates 2.40-1         
+2020/04/14 17:46:51   65 install bzip2           1.0.8-1        
+2020/04/14 17:46:51   66 install man-db          2.7.6.1-1      
+2020/04/14 17:46:51   67 install rebase          4.4.4-1        
+2020/04/14 17:46:51   68 install base-files      4.3-2          
+2020/04/14 17:46:51   69 install libssl1.1       1.1.1f-1       
+2020/04/14 17:46:51   70 install tar             1.29-1         
+2020/04/14 17:46:51   71 install openssl         1.1.1f-1       
+2020/04/14 17:46:54 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2020/04/14 17:46:54 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-3.1.4-1.tar.xz
+2020/04/14 17:46:55 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.1-1.tar.xz
+2020/04/14 17:46:56 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2020/04/14 17:46:56 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2020/04/14 17:46:57 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2019c-1.tar.xz
+2020/04/14 17:46:57 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2020/04/14 17:46:58 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2020/04/14 17:46:58 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2020/04/14 17:46:59 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.1.4-1.tar.xz
+2020/04/14 17:46:59 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2020/04/14 17:46:59 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2020/04/14 17:47:00 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2020/04/14 17:47:00 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.44-1.tar.xz
+2020/04/14 17:47:01 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.4-1.tar.xz
+2020/04/14 17:47:01 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2020/04/14 17:47:01 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.0-2.tar.xz
+2020/04/14 17:47:02 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-9.3.0-1.tar.xz
+2020/04/14 17:47:02 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2020/04/14 17:47:02 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2020/04/14 17:47:03 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2020/04/14 17:47:03 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2020/04/14 17:47:03 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2020/04/14 17:47:03 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2020/04/14 17:47:04 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2020/04/14 17:47:04 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2020/04/14 17:47:04 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/file/file-5.32-1.tar.xz
+2020/04/14 17:47:05 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2020/04/14 17:47:05 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-9.3.0-1.tar.xz
+2020/04/14 17:47:05 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.0.2-2p6.tar.xz
+2020/04/14 17:47:06 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2020/04/14 17:47:06 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2020/04/14 17:47:06 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2020/04/14 17:47:07 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2020/04/14 17:47:07 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2020/04/14 17:47:07 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2020/04/14 17:47:07 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2020/04/14 17:47:08 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2020/04/14 17:47:08 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2020/04/14 17:47:08 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.13-1.tar.xz
+2020/04/14 17:47:08 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2020/04/14 17:47:09 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2020/04/14 17:47:09 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2020/04/14 17:47:10 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.0486-1.tar.xz
+2020/04/14 17:47:10 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2020/04/14 17:47:10 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2020/04/14 17:47:10 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/less/less-551-1.tar.xz
+2020/04/14 17:47:11 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+2020/04/14 17:47:11 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2020/04/14 17:47:11 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2020/04/14 17:47:12 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2020/04/14 17:47:12 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2020/04/14 17:47:12 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gawk/gawk-5.0.1-1.tar.xz
+2020/04/14 17:47:14 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2020/04/14 17:47:15 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2020/04/14 17:47:16 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2020/04/14 17:47:17 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2020/04/14 17:47:19 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tzcode/tzcode-2019c-1.tar.xz
+2020/04/14 17:47:19 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/xz-5.2.4-1.tar.xz
+2020/04/14 17:47:19 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2020/04/14 17:47:20 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2020/04/14 17:47:22 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2020/04/14 17:47:23 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2020/04/14 17:47:23 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2020/04/14 17:47:23 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.40-1.tar.xz
+2020/04/14 17:47:24 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2020/04/14 17:47:56 Downloaded file D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz is corrupt; deleting.
+2020/04/14 17:47:58 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2020/04/14 17:47:58 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2020/04/14 17:47:59 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1f-1.tar.xz
+2020/04/14 17:48:00 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tar/tar-1.29-1.tar.xz
+2020/04/14 17:48:01 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.1.1f-1.tar.xz
+2020/04/14 17:48:01 The following package(s) had download errors:
+2020/04/14 17:48:01   man-db-2.7.6.1-1
+2020/04/14 17:48:07 Downloaded D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz
+2020/04/14 17:48:07 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2020/04/14 17:48:07 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygwin/cygwin-3.1.4-1.tar.xz
+2020/04/14 17:48:07 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.1-1.tar.xz
+2020/04/14 17:48:07 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.16-2.tar.xz
+2020/04/14 17:48:08 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo/terminfo-6.1-1.20190727.tar.xz
+2020/04/14 17:48:08 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/tzdata/tzdata-2019c-1.tar.xz
+2020/04/14 17:48:14 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/zlib/zlib0/zlib0-1.2.11-1.tar.xz
+2020/04/14 17:48:14 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2020/04/14 17:48:14 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2020/04/14 17:48:14 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mintty/mintty-3.1.4-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/login/login-1.13-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/pcre/libpcre1/libpcre1-8.44-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.4-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.14-3.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.0-2.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libgcc1/libgcc1-9.3.0-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/dash/dash-0.5.9.1-1.tar.xz
+2020/04/14 17:48:15 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.1-1.20190727.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/file/file-5.32-1.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gettext/libintl8/libintl8-0.19.8.1-2.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gcc/libstdc++6/libstdc++6-9.3.0-1.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.0.2-2p6.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/_autorebase/_autorebase-001007-1.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.1-1.20190727.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/sed/sed-4.4-1.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/popt/libpopt0/libpopt0-1.16-2.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2020/04/14 17:48:24 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/libiconv/libiconv-1.14-3.tar.xz
+2020/04/14 17:48:25 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gdbm/libgdbm4/libgdbm4-1.13-1.tar.xz
+2020/04/14 17:48:25 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2020/04/14 17:48:25 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/diffutils/diffutils-3.5-2.tar.xz
+2020/04/14 17:48:25 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2020/04/14 17:48:26 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.0486-1.tar.xz
+2020/04/14 17:48:26 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/ncurses/ncurses-6.1-1.20190727.tar.xz
+2020/04/14 17:48:26 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/readline/libreadline7/libreadline7-7.0.3-3.tar.xz
+2020/04/14 17:48:26 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/less/less-551-1.tar.xz
+2020/04/14 17:48:26 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/texinfo/info/info-6.7-1.tar.xz
+2020/04/14 17:48:27 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2020/04/14 17:48:27 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/cygutils/cygutils-1.4.16-2.tar.xz
+2020/04/14 17:48:27 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2020/04/14 17:48:27 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2020/04/14 17:48:27 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gawk/gawk-5.0.1-1.tar.xz
+2020/04/14 17:48:27 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/coreutils/coreutils-8.26-2.tar.xz
+2020/04/14 17:48:29 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2020/04/14 17:48:30 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2020/04/14 17:48:30 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2020/04/14 17:48:31 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tzcode/tzcode-2019c-1.tar.xz
+2020/04/14 17:48:31 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/xz/xz-5.2.4-1.tar.xz
+2020/04/14 17:48:32 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/gzip/gzip-1.8-1.tar.xz
+2020/04/14 17:48:32 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2020/04/14 17:48:35 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/grep/grep-3.0-2.tar.xz
+2020/04/14 17:48:35 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/findutils/findutils-4.6.0-1.tar.xz
+2020/04/14 17:48:36 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2020/04/14 17:48:36 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/ca-certificates/ca-certificates-2.40-1.tar.xz
+2020/04/14 17:48:36 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2020/04/14 17:48:36 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/man-db/man-db-2.7.6.1-1.tar.xz
+2020/04/14 17:48:38 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/rebase/rebase-4.4.4-1.tar.xz
+2020/04/14 17:48:38 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/noarch/release/base-files/base-files-4.3-2.tar.xz
+2020/04/14 17:48:38 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1f-1.tar.xz
+2020/04/14 17:48:38 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/tar/tar-1.29-1.tar.xz
+2020/04/14 17:48:38 Extracting from file://D:\Downloads/http%3a%2f%2fcygwin.mirror.constant.com%2f/x86_64/release/openssl/openssl-1.1.1f-1.tar.xz
+2020/04/14 17:48:39 Changing gid back to original
+2020/04/14 17:48:39 running: C:\Users\acer\PycharmProjects\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2020/04/14 17:49:06 running: C:\Users\acer\PycharmProjects\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2020/04/14 17:49:12 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2020/04/14 17:49:13 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2020/04/14 17:49:14 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2020/04/14 17:49:15 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2020/04/14 17:49:18 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2020/04/14 17:49:21 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2020/04/14 17:49:21 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2020/04/14 17:49:26 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2020/04/14 17:49:32 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2020/04/14 17:49:32 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2020/04/14 17:49:33 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2020/04/14 17:49:33 running: C:\Users\acer\PycharmProjects\bin\bash.exe --norc --noprofile "/etc/postinstall/zp_man-db.sh"
+2020/04/14 17:49:33 Changing gid to Administrators
+2020/04/14 17:49:46 note: Installation Complete
+2020/04/14 17:49:46 Ending cygwin install
