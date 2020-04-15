@@ -28,3 +28,6 @@ def dinsh(self):
 
 def kannan(self):
     print("Janaranjani Mohan")
+
+def kannan(self):
+    print("C S Kannan")
