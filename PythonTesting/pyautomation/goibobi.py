@@ -31,6 +31,6 @@ def dinsh(self):
 def kannan(self):
     print("Janaranjani Mohan")
     print("C S Kannan")
-    
+
 def Uma(self):
     print("Aishwarya Kannan")
