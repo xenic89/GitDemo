@@ -12,3 +12,5 @@ parent = driver.window_handles[0]
 driver.switch_to.window(parent)
 print(driver.find_elements_by_xpath("//h3").text)
 #assert "Opening a new window" == driver.find_elements_by_xpath("//h3[@xpath='1']")
+
+

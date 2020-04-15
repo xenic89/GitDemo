@@ -31,3 +31,4 @@ assert "Success! Thank you!" in txt
 
 driver.get_screenshot_as_file("screen.png")
 
+print("This is the fourth change")
