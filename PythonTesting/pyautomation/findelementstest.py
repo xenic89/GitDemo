@@ -13,3 +13,6 @@ for i in cities:
         i.click()
 
 driver.find_element_by_xpath("//p[text()='Mumbai, India']").click()
+
+print("There has been a change in the code")
+print("There will be a change in the code")
