@@ -11,19 +11,5 @@ driver.close()
 parent = driver.window_handles[0]
 driver.switch_to.window(parent)
 print(driver.find_elements_by_xpath("//h3").text)
-#assert "Opening a new window" == driver.find_elements_by_xpath("//h3[@xpath='1']")
-<<<<<<< HEAD
+assert "Opening a new window" == driver.find_elements_by_xpath("//h3[@xpath='1']")
 
-
-=======
-print("There has been a change in the code")
-print("There will be a change in the code")
-
-
-
-print("There has been a change in the code")
-print("There will be a change in the code")
-print("There has been a change in the code")
-print("There will be a change in the code")
-
->>>>>>> 2f830082771323824e05702d3a2d91b5ff98a798
