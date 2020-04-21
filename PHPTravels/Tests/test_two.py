@@ -10,19 +10,19 @@ from selenium.webdriver.support.wait import WebDriverWait
 from Utilities.BaseClass import BaseClass
 
 
-class Test2(BaseClass):
+class test_2(BaseClass):
 
-    def test_2(self):
+    def test_two(self):
 
         self.driver.find_element_by_xpath("//div/ul/li/a[text()='T-shirts']").click()
 
         dress_name = self.driver.find_element_by_xpath("//li/div/div/h5/a").text
-        wait = WebDriverWait(driver, 5)
+        wait = WebDriverWait(self.driver, 5)
         wait.until(expected_conditions.presence_of_element_located((By.CSS_SELECTOR, ".product-container")))
-        action = ActionChains(driver)
+        action = ActionChains(self.driver)
 
 
-        action.move_to_element(driver.find_element_by_css_selector(".product-container")).perform()
+        action.move_to_element(self.driver.find_element_by_css_selector(".product-container")).perform()
 
         price = self.driver.find_element_by_css_selector("li div div div  span[itemprop='price']").text
 
@@ -30,7 +30,7 @@ class Test2(BaseClass):
 
         time.sleep(5)
 
-        action.move_to_element(driver.find_element_by_css_selector("div[id='layer_cart'] div[class='clearfix']")).perform()
+        action.move_to_element(self.driver.find_element_by_css_selector("div[id='layer_cart'] div[class='clearfix']")).perform()
         cart_dress_name = self.driver.find_element_by_id("layer_cart_product_title").text
         quantity = self.driver.find_element_by_id("layer_cart_product_quantity").text
         cart_price = self.driver.find_element_by_id("layer_cart_product_price").text

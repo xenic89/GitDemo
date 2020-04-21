@@ -8,9 +8,9 @@ from PageObjects.Homepage import Homepage
 from Utilities.BaseClass import BaseClass
 
 
-class Test1(BaseClass):
+class test_1(BaseClass):
 
-    def test_1(self):
+    def test_one(self):
         self.driver.find_element_by_css_selector("a[title='Women']").click()
         url1 = self.driver.current_url
         assert "http://automationpractice.com/index.php?id_category=3&controller=category" in url1
