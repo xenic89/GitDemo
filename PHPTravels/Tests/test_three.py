@@ -48,7 +48,7 @@ class TestThree(BaseClass):
         headings = ['Categories', 'Information', 'My account', 'Store information']
         categories = "Women"
         information = ['Specials', 'New products', 'Best sellers', 'Our stores', 'Contact us', 'Terms and conditions of use', 'About us', 'Sitemap']
-        myaccount = ['My orders', 'My credit slips', 'My addresses', 'My personal info', 'Sign out']
+        myaccount = ['My orders', 'My credit slips', 'My addresses', 'My personal info']
 
         assert headings == footer_headings
         assert categories == footer_categories
