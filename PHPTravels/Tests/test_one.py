@@ -8,20 +8,20 @@ from PageObjects.Homepage import Homepage
 from Utilities.BaseClass import BaseClass
 
 
-class test_1(BaseClass):
+class TestOne(BaseClass):
 
-    def test_one(self):
-        self.driver.find_element_by_css_selector("a[title='Women']").click()
+    def test_first(self):
+        homePage = Homepage(self.driver)
+        homePage.women_menu().click()
         url1 = self.driver.current_url
         assert "http://automationpractice.com/index.php?id_category=3&controller=category" in url1
         self.driver.back()
 
-
-        self.driver.find_element_by_xpath("//div/ul/li/a[text()='Dresses']").click()
+        homePage.dress_menu().click()
         url2 = self.driver.current_url
         assert "http://automationpractice.com/index.php?id_category=8&controller=category" in url2
         self.driver.back()
 
-        self.driver.find_element_by_xpath("//div/ul/li/a[text()='T-shirts']").click()
+        homePage.tshirts_menu().click()
         url3 = self.driver.current_url
         assert "http://automationpractice.com/index.php?id_category=5&controller=category" in url3
