@@ -23,7 +23,7 @@ class FooterSection:
     creditslips = (By.XPATH, "//*[contains(@class, 'footer')]/h4/a/parent::h4/parent::section/div/ul/li/a[@title='My credit slips']")
     myaddress = (By.XPATH, "//*[contains(@class, 'footer')]/h4/a/parent::h4/parent::section/div/ul/li/a[@title='My addresses']")
     personalinfo = (By.XPATH, "//*[contains(@class, 'footer')]/h4/a/parent::h4/parent::section/div/ul/li/a[@title='Manage my personal information']")
-    signout = (By.CSS_SELECTOR, "div a[title='Log me out']")
+    signout = (By.XPATH, "//*[contains(@class, 'footer')]/h4/a/parent::h4/parent::section/div/ul/li/a[@title='Sign out']")
 
     def footer_menu(self):
         return self.driver.find_elements(*FooterSection.footermenu)

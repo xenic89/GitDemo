@@ -1,3 +1,5 @@
+import time
+
 import pytest
 from selenium import webdriver
 from selenium.webdriver import ActionChains
@@ -16,12 +18,14 @@ from Utilities.BaseClass import BaseClass
 class TestThree(BaseClass):
 
     def test_third(self, getData):
-
+        log = self.get_Logger()
         homepage = Homepage(self.driver)
         signin = SignIn(self.driver)
         homepage.sign_in().click()
-        signin.user_field().send_keys(getData("email"))
-        signin.pwd_field().send_keys(getData("password"))
+        signin.user_field().send_keys(getData["email"])
+        log.info("User logging in :" + getData["email"])
+        signin.pwd_field().send_keys(getData["password"])
+        log.info("User logging in :" + getData["password"])
         signin.sub_mit().click()
         signin.homepage_button().click()
 
@@ -33,20 +37,26 @@ class TestThree(BaseClass):
 
         for i in footer_menu:
             footer_headings.append(i.text)
+        log.info(" footer headings ")
 
         footer_categories = footerpage.footer_category().text
+        log.info(" Sub-headers under categories : "+footer_categories)
+
 
         footer_info = footerpage.footer_info()
         footer_information = []
 
         for i in footer_info:
             footer_information.append(i.text)
+        log.info("All sub headings under Information")
 
         footer_myacc = footerpage.footer_acc()
         footer_myaccount = []
 
+
         for i in footer_myacc:
             footer_myaccount.append(i.text)
+        log.info("All sub headings under Account")
 
         assert FooterData.headings == footer_headings
         assert FooterData.categories == footer_categories
@@ -54,6 +64,7 @@ class TestThree(BaseClass):
         assert FooterData.myaccount == footer_myaccount
 
         # Categories - Women
+        log.info("Verifying footer links")
         footerpage.wo_men().click()
         assert self.driver.current_url == FooterData.women
         self.driver.back()
@@ -120,7 +131,7 @@ class TestThree(BaseClass):
 
         footerpage.sign_out().click()
         assert self.driver.current_url == FooterData.signouthomepage
-
+        time.sleep(5)
     @pytest.fixture(params=HomePageData.test_Homepage_data)
     def getData(self, request):
         return request.param

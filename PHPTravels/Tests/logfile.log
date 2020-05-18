@@ -1,0 +1,309 @@
+2020-04-21 23:32:02,522 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-21 23:32:02,871 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-21 23:32:08,296 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-21 23:32:08,327 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-21 23:32:08,358 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-21 23:32:10,382 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-21 23:32:10,416 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-21 23:32:10,454 :INFO :test_second :Quantity of tshirt in checkout page is :  
+2020-04-21 23:34:36,764 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-21 23:34:37,123 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-21 23:34:42,572 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-21 23:34:42,606 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-21 23:34:42,637 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-21 23:34:44,642 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-21 23:34:44,678 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-21 23:34:44,710 :INFO :test_second :Quantity of tshirt in checkout page is :  
+2020-04-21 23:48:26,602 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-21 23:48:26,941 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-21 23:48:32,346 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-21 23:48:32,379 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-21 23:48:32,411 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-21 23:48:34,472 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-21 23:48:34,522 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-21 23:50:38,503 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-21 23:50:38,840 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-21 23:50:44,264 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-21 23:50:44,298 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-21 23:50:44,329 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-21 23:50:46,894 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-21 23:50:46,935 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 00:06:22,236 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 00:06:25,418 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 00:06:26,786 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 00:06:44,653 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 00:06:44,782 :INFO :test_third :User logging in :123456 
+2020-04-22 00:06:48,677 :INFO :test_third : footer headings  
+2020-04-22 00:06:48,718 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:06:48,960 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:06:49,092 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:06:49,092 :INFO :test_third :Verifying footer links 
+2020-04-22 00:07:28,909 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 00:07:29,256 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 00:07:34,659 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 00:07:34,691 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 00:07:34,724 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 00:07:36,903 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 00:07:36,952 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 00:09:14,785 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 00:09:17,419 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 00:09:18,687 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 00:09:36,817 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 00:09:36,960 :INFO :test_third :User logging in :123456 
+2020-04-22 00:09:42,441 :INFO :test_third : footer headings  
+2020-04-22 00:09:42,475 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:09:42,663 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:09:42,768 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:09:42,769 :INFO :test_third :Verifying footer links 
+2020-04-22 00:10:07,489 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:10:07,489 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:10:07,591 :INFO :test_third :User logging in :123456 
+2020-04-22 00:10:07,591 :INFO :test_third :User logging in :123456 
+2020-04-22 00:10:11,637 :INFO :test_third : footer headings  
+2020-04-22 00:10:11,637 :INFO :test_third : footer headings  
+2020-04-22 00:10:11,672 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:10:11,672 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:10:11,858 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:10:11,858 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:10:11,960 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:10:11,960 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:10:11,961 :INFO :test_third :Verifying footer links 
+2020-04-22 00:10:11,961 :INFO :test_third :Verifying footer links 
+2020-04-22 00:10:51,101 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 00:10:51,474 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 00:10:56,924 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 00:10:56,956 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 00:10:56,987 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 00:10:59,004 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 00:10:59,047 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 00:24:05,020 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 00:24:07,660 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 00:24:08,784 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 00:24:26,292 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 00:24:26,399 :INFO :test_third :User logging in :123456 
+2020-04-22 00:24:29,887 :INFO :test_third : footer headings  
+2020-04-22 00:24:29,922 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:24:30,115 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:24:30,213 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:24:30,213 :INFO :test_third :Verifying footer links 
+2020-04-22 00:24:53,792 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:24:53,792 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:24:53,891 :INFO :test_third :User logging in :123456 
+2020-04-22 00:24:53,891 :INFO :test_third :User logging in :123456 
+2020-04-22 00:24:57,966 :INFO :test_third : footer headings  
+2020-04-22 00:24:57,966 :INFO :test_third : footer headings  
+2020-04-22 00:24:58,002 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:24:58,002 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:24:58,189 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:24:58,189 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:24:58,290 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:24:58,290 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:24:58,290 :INFO :test_third :Verifying footer links 
+2020-04-22 00:24:58,290 :INFO :test_third :Verifying footer links 
+2020-04-22 00:25:36,500 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 00:25:36,869 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 00:25:42,297 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 00:25:42,328 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 00:25:42,358 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 00:25:44,401 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 00:25:44,438 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 00:28:11,667 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 00:28:14,417 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 00:28:15,713 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 00:28:33,470 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 00:28:33,622 :INFO :test_third :User logging in :123456 
+2020-04-22 00:28:37,329 :INFO :test_third : footer headings  
+2020-04-22 00:28:37,363 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:28:37,545 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:28:37,638 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:28:37,638 :INFO :test_third :Verifying footer links 
+2020-04-22 00:29:00,076 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:29:00,076 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:29:00,170 :INFO :test_third :User logging in :123456 
+2020-04-22 00:29:00,170 :INFO :test_third :User logging in :123456 
+2020-04-22 00:29:03,502 :INFO :test_third : footer headings  
+2020-04-22 00:29:03,502 :INFO :test_third : footer headings  
+2020-04-22 00:29:03,540 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:29:03,540 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:29:03,721 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:29:03,721 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:29:03,819 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:29:03,819 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:29:03,819 :INFO :test_third :Verifying footer links 
+2020-04-22 00:29:03,819 :INFO :test_third :Verifying footer links 
+2020-04-22 00:29:41,505 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 00:29:41,870 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 00:29:47,274 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 00:29:47,304 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 00:29:47,335 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 00:29:49,463 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 00:29:49,503 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 00:55:27,973 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 00:55:30,703 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 00:55:32,169 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 00:55:50,267 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 00:55:50,384 :INFO :test_third :User logging in :123456 
+2020-04-22 00:55:54,773 :INFO :test_third : footer headings  
+2020-04-22 00:55:54,833 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:55:55,032 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:55:55,143 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:55:55,143 :INFO :test_third :Verifying footer links 
+2020-04-22 00:56:17,703 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:56:17,703 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 00:56:17,803 :INFO :test_third :User logging in :123456 
+2020-04-22 00:56:17,803 :INFO :test_third :User logging in :123456 
+2020-04-22 00:56:21,126 :INFO :test_third : footer headings  
+2020-04-22 00:56:21,126 :INFO :test_third : footer headings  
+2020-04-22 00:56:21,164 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:56:21,164 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 00:56:21,354 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:56:21,354 :INFO :test_third :All sub headings under Information 
+2020-04-22 00:56:21,464 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:56:21,464 :INFO :test_third :All sub headings under Account 
+2020-04-22 00:56:21,464 :INFO :test_third :Verifying footer links 
+2020-04-22 00:56:21,464 :INFO :test_third :Verifying footer links 
+2020-04-22 00:56:59,097 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 00:56:59,458 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 00:57:04,852 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 00:57:04,881 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 00:57:04,912 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 00:57:06,923 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 00:57:06,959 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 00:59:56,542 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 00:59:59,290 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 01:00:00,429 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 01:00:19,742 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 01:00:19,850 :INFO :test_third :User logging in :123456 
+2020-04-22 01:00:23,475 :INFO :test_third : footer headings  
+2020-04-22 01:00:23,507 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 01:00:23,700 :INFO :test_third :All sub headings under Information 
+2020-04-22 01:00:23,792 :INFO :test_third :All sub headings under Account 
+2020-04-22 01:00:23,792 :INFO :test_third :Verifying footer links 
+2020-04-22 01:00:46,014 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 01:00:46,014 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 01:00:46,114 :INFO :test_third :User logging in :123456 
+2020-04-22 01:00:46,114 :INFO :test_third :User logging in :123456 
+2020-04-22 01:00:49,743 :INFO :test_third : footer headings  
+2020-04-22 01:00:49,743 :INFO :test_third : footer headings  
+2020-04-22 01:00:49,781 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 01:00:49,781 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 01:00:49,969 :INFO :test_third :All sub headings under Information 
+2020-04-22 01:00:49,969 :INFO :test_third :All sub headings under Information 
+2020-04-22 01:00:50,069 :INFO :test_third :All sub headings under Account 
+2020-04-22 01:00:50,069 :INFO :test_third :All sub headings under Account 
+2020-04-22 01:00:50,070 :INFO :test_third :Verifying footer links 
+2020-04-22 01:00:50,070 :INFO :test_third :Verifying footer links 
+2020-04-22 01:01:27,634 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 01:01:27,983 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 01:01:33,392 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 01:01:33,424 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 01:01:33,456 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 01:01:35,482 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 01:01:35,521 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 01:51:44,794 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 01:51:52,722 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 01:51:54,186 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 01:52:27,709 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 01:52:27,834 :INFO :test_third :User logging in :123456 
+2020-04-22 01:52:36,938 :INFO :test_third : footer headings  
+2020-04-22 01:52:36,980 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 01:52:37,215 :INFO :test_third :All sub headings under Information 
+2020-04-22 01:52:37,358 :INFO :test_third :All sub headings under Account 
+2020-04-22 01:52:37,358 :INFO :test_third :Verifying footer links 
+2020-04-22 01:53:14,205 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 01:53:14,205 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 01:53:14,320 :INFO :test_third :User logging in :123456 
+2020-04-22 01:53:14,320 :INFO :test_third :User logging in :123456 
+2020-04-22 01:53:21,302 :INFO :test_third : footer headings  
+2020-04-22 01:53:21,302 :INFO :test_third : footer headings  
+2020-04-22 01:53:21,337 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 01:53:21,337 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 01:53:21,530 :INFO :test_third :All sub headings under Information 
+2020-04-22 01:53:21,530 :INFO :test_third :All sub headings under Information 
+2020-04-22 01:53:21,633 :INFO :test_third :All sub headings under Account 
+2020-04-22 01:53:21,633 :INFO :test_third :All sub headings under Account 
+2020-04-22 01:53:21,633 :INFO :test_third :Verifying footer links 
+2020-04-22 01:53:21,633 :INFO :test_third :Verifying footer links 
+2020-04-22 01:54:32,465 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 01:54:32,811 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 01:54:38,212 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 01:54:38,243 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 01:54:38,273 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 01:54:40,888 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 01:54:40,927 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 01:59:40,756 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 01:59:49,851 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 01:59:51,288 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 02:00:29,403 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 02:00:29,516 :INFO :test_third :User logging in :123456 
+2020-04-22 02:00:38,413 :INFO :test_third : footer headings  
+2020-04-22 02:00:38,447 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 02:00:38,634 :INFO :test_third :All sub headings under Information 
+2020-04-22 02:00:38,783 :INFO :test_third :All sub headings under Account 
+2020-04-22 02:00:38,784 :INFO :test_third :Verifying footer links 
+2020-04-22 02:01:09,439 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 02:01:09,439 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 02:01:09,535 :INFO :test_third :User logging in :123456 
+2020-04-22 02:01:09,535 :INFO :test_third :User logging in :123456 
+2020-04-22 02:01:24,762 :INFO :test_third : footer headings  
+2020-04-22 02:01:24,762 :INFO :test_third : footer headings  
+2020-04-22 02:01:24,797 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 02:01:24,797 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 02:01:24,977 :INFO :test_third :All sub headings under Information 
+2020-04-22 02:01:24,977 :INFO :test_third :All sub headings under Information 
+2020-04-22 02:01:25,079 :INFO :test_third :All sub headings under Account 
+2020-04-22 02:01:25,079 :INFO :test_third :All sub headings under Account 
+2020-04-22 02:01:25,079 :INFO :test_third :Verifying footer links 
+2020-04-22 02:01:25,079 :INFO :test_third :Verifying footer links 
+2020-04-22 02:02:28,457 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 02:02:28,822 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 02:02:34,259 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 02:02:34,291 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 02:02:34,322 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 02:05:44,707 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 02:05:51,633 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 02:05:53,102 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 02:06:27,759 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 02:06:27,867 :INFO :test_third :User logging in :123456 
+2020-04-22 02:06:38,423 :INFO :test_third : footer headings  
+2020-04-22 02:06:38,461 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 02:06:38,653 :INFO :test_third :All sub headings under Information 
+2020-04-22 02:06:38,762 :INFO :test_third :All sub headings under Account 
+2020-04-22 02:06:38,762 :INFO :test_third :Verifying footer links 
+2020-04-22 02:07:11,825 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 02:07:11,825 :INFO :test_third :User logging in :ap@abc.com 
+2020-04-22 02:07:11,932 :INFO :test_third :User logging in :123456 
+2020-04-22 02:07:11,932 :INFO :test_third :User logging in :123456 
+2020-04-22 02:07:21,641 :INFO :test_third : footer headings  
+2020-04-22 02:07:21,641 :INFO :test_third : footer headings  
+2020-04-22 02:07:21,680 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 02:07:21,680 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 02:07:21,876 :INFO :test_third :All sub headings under Information 
+2020-04-22 02:07:21,876 :INFO :test_third :All sub headings under Information 
+2020-04-22 02:07:21,980 :INFO :test_third :All sub headings under Account 
+2020-04-22 02:07:21,980 :INFO :test_third :All sub headings under Account 
+2020-04-22 02:07:21,981 :INFO :test_third :Verifying footer links 
+2020-04-22 02:07:21,981 :INFO :test_third :Verifying footer links 
+2020-04-22 02:08:24,585 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 02:08:24,934 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 02:08:30,350 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 02:08:30,382 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 02:08:30,413 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 02:08:33,579 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 02:08:33,610 :INFO :test_second :Price of tshirt in checkout page is : $16.51 
+2020-04-22 02:10:38,651 :INFO :test_first :verifying the main menu item - Women 
+2020-04-22 02:10:49,299 :INFO :test_first :verifying the main menu item - Dresses 
+2020-04-22 02:10:50,378 :INFO :test_first :verifying the main menu item - T-Shirts 
+2020-04-22 02:11:28,615 :INFO :test_third :User logging in :din@abc.com 
+2020-04-22 02:11:28,751 :INFO :test_third :User logging in :123456 
+2020-04-22 02:11:39,735 :INFO :test_third : footer headings  
+2020-04-22 02:11:39,774 :INFO :test_third : Sub-headers under categories : Women 
+2020-04-22 02:11:39,969 :INFO :test_third :All sub headings under Information 
+2020-04-22 02:11:40,066 :INFO :test_third :All sub headings under Account 
+2020-04-22 02:12:17,887 :INFO :test_second :Name of tshirt in homepage is : Faded Short Sleeve T-shirts 
+2020-04-22 02:12:18,239 :INFO :test_second :Price of tshirt in homepage is : $16.51 
+2020-04-22 02:12:23,660 :INFO :test_second :Name of tshirt in Cart pop-up is : Faded Short Sleeve T-shirts 
+2020-04-22 02:12:23,694 :INFO :test_second :Quantity of tshirt in Cart pop-up is : 1 
+2020-04-22 02:12:23,727 :INFO :test_second :Price of tshirt in Cart pop-up is : $16.51 
+2020-04-22 02:12:30,510 :INFO :test_second :Name of tshirt in checkout page is : Faded Short Sleeve T-shirts 
+2020-04-22 02:12:30,543 :INFO :test_second :Price of tshirt in checkout page is : $16.51 

@@ -12,17 +12,22 @@ from Utilities.BaseClass import BaseClass
 class TestOne(BaseClass):
 
     def test_first(self):
+        log = self.get_Logger()
         homePage = Homepage(self.driver)
+
+        log.info("verifying the main menu item - Women")
         homePage.women_menu().click()
         url1 = self.driver.current_url
         assert HomePageData.url1 in url1
         self.driver.back()
 
+        log.info("verifying the main menu item - Dresses")
         homePage.dress_menu().click()
         url2 = self.driver.current_url
         assert HomePageData.url2 in url2
         self.driver.back()
 
+        log.info("verifying the main menu item - T-Shirts")
         homePage.tshirts_menu().click()
         url3 = self.driver.current_url
         assert HomePageData.url3 in url3
