@@ -8,17 +8,20 @@ from selenium.webdriver.support.wait import WebDriverWait
 from PageObjects.Footer import FooterSection
 from PageObjects.Homepage import Homepage
 from PageObjects.SignIn import SignIn
+from TestData.FooterData import FooterData
+from TestData.HomePageData import HomePageData
 from Utilities.BaseClass import BaseClass
 
 
 class TestThree(BaseClass):
 
-    def test_third(self):
+    def test_third(self, getData):
+
         homepage = Homepage(self.driver)
         signin = SignIn(self.driver)
         homepage.sign_in().click()
-        signin.user_field().send_keys("din@abc.com")
-        signin.pwd_field().send_keys("123456")
+        signin.user_field().send_keys(getData("email"))
+        signin.pwd_field().send_keys(getData("password"))
         signin.sub_mit().click()
         signin.homepage_button().click()
 
@@ -45,80 +48,79 @@ class TestThree(BaseClass):
         for i in footer_myacc:
             footer_myaccount.append(i.text)
 
-        headings = ['Categories', 'Information', 'My account', 'Store information']
-        categories = "Women"
-        information = ['Specials', 'New products', 'Best sellers', 'Our stores', 'Contact us', 'Terms and conditions of use', 'About us', 'Sitemap']
-        myaccount = ['My orders', 'My credit slips', 'My addresses', 'My personal info']
-
-        assert headings == footer_headings
-        assert categories == footer_categories
-        assert information == footer_information
-        assert myaccount == footer_myaccount
+        assert FooterData.headings == footer_headings
+        assert FooterData.categories == footer_categories
+        assert FooterData.information == footer_information
+        assert FooterData.myaccount == footer_myaccount
 
         # Categories - Women
         footerpage.wo_men().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?id_category=3&controller=category"
+        assert self.driver.current_url == FooterData.women
         self.driver.back()
 
         # Information - Specials
         footerpage.spec_ial().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=prices-drop"
+        assert self.driver.current_url == FooterData.specials
         self.driver.back()
 
         # Information - New products
         footerpage.new_products().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=new-products"
+        assert self.driver.current_url == FooterData.newproducts
         self.driver.back()
 
         # Information - Best sellers
         footerpage.best_sellers().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=best-sales"
+        assert self.driver.current_url == FooterData.bestsellers
         self.driver.back()
 
         # Information - Our stores
         footerpage.our_stores().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=stores"
+        assert self.driver.current_url == FooterData.ourstores
         self.driver.back()
 
         # Information - Contact us
         footerpage.contact_us().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=contact"
+        assert self.driver.current_url == FooterData.contactus
         self.driver.back()
 
         # Information - Terms & conditions
         footerpage.terms_conditions().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?id_cms=3&controller=cms"
+        assert self.driver.current_url == FooterData.termsconditions
         self.driver.back()
 
         # Information - About us
         footerpage.about_us().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?id_cms=4&controller=cms"
+        assert self.driver.current_url == FooterData.aboutus
         self.driver.back()
 
         # Information -  Sitemap
         footerpage.site_map().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=sitemap"
+        assert self.driver.current_url == FooterData.sitemap
         self.driver.back()
 
         # My account - My orders
         footerpage.my_orders().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=history"
+        assert self.driver.current_url == FooterData.myorders
         self.driver.back()
 
         # My account - My credit slips
         footerpage.credit_slip().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=order-slip"
+        assert self.driver.current_url == FooterData.creditslips
         self.driver.back()
 
         # My account - My addresses
         footerpage.my_address().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=addresses"
+        assert self.driver.current_url == FooterData.myaddresses
         self.driver.back()
 
         # My account - My personal info
         footerpage.personal_info().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php?controller=identity"
+        assert self.driver.current_url == FooterData.myinfo
         self.driver.back()
 
         footerpage.sign_out().click()
-        assert self.driver.current_url == "http://automationpractice.com/index.php"
+        assert self.driver.current_url == FooterData.signouthomepage
+
+    @pytest.fixture(params=HomePageData.test_Homepage_data)
+    def getData(self, request):
+        return request.param

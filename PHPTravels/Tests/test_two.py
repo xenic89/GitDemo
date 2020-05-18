@@ -22,20 +22,21 @@ class TestTwo(BaseClass):
 
         tshirtpage = TshirtsPage(self.driver)
         dress_name = tshirtpage.dress_name().text
-        wait = WebDriverWait(self.driver, 5)
 
-        wait.until(expected_conditions.presence_of_element_located((By.CSS_SELECTOR, ".product-container")))
-        action = ActionChains(self.driver)
+        self.verifyLinkPresence(".product-container")
 
-        action.move_to_element(tshirtpage.Mouse_hover()).perform()
+        self.actionClass(tshirtpage.Mouse_hover())
+        #action = ActionChains(self.driver)
+
+        #action.move_to_element(tshirtpage.Mouse_hover()).perform()
 
         price = tshirtpage.shirt_price().text
 
         tshirtpage.Addto_Cart().click()
 
         time.sleep(5)
-
-        action.move_to_element(tshirtpage.move_to()).perform()
+        self.actionClass(tshirtpage.move_to())
+        #action.move_to_element(tshirtpage.move_to()).perform()
         addtocartPopup = AddtoCartPopup(self.driver)
         cart_dress_name = addtocartPopup.cart_dressname().text
         quantity = addtocartPopup.quan_tity().text
