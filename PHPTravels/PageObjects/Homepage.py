@@ -12,7 +12,7 @@ class Homepage:
     Signin = (By.CSS_SELECTOR, "div a[class='login']")
 
 
-    def women_menu(self):
+    def women_menu(self):   
         return self.driver.find_element(*Homepage.women)
 
     def dress_menu(self):
