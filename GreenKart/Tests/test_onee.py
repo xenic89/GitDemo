@@ -11,7 +11,7 @@ from PageObject.PlaceOrder import PlaceOrder
 from Utilities.Baseclass import Baseclass
 
 
-class testNormalflow(Baseclass):
+class TestNormalflow(Baseclass):
 
 
     def test_one(self):
@@ -48,8 +48,8 @@ class testNormalflow(Baseclass):
         log.info("Verifying the promom code success message")
         placeorder.place_order().click()
 
-        dropdown = self.dropdown("div select")
-        dropdown.select_by_value("India")
+        self.dropdown("div select")
+
         log.info("Selecting current country for address")
         checkout.agree_btn().click()
         checkout.pro_btn().click()

@@ -1,0 +1,19 @@
+2020-05-20 16:10:41,778 :INFO :test_one :Collecting all vegetable names in a list 
+2020-05-20 16:10:44,282 :INFO :test_one :Clicking only on Beans, Brinjal and Cucumber 
+2020-05-20 16:10:44,397 :INFO :test_one :Verifying the cart is added with the required items 
+2020-05-20 16:10:44,493 :INFO :test_one :After confirmation, proceed to place order 
+2020-05-20 16:10:45,304 :INFO :test_one :Entering discount code for verifying discount 
+2020-05-20 16:10:50,533 :INFO :test_one :Verifying the promom code success message 
+2020-05-20 16:13:07,002 :INFO :test_one :Collecting all vegetable names in a list 
+2020-05-20 16:13:09,238 :INFO :test_one :Clicking only on Beans, Brinjal and Cucumber 
+2020-05-20 16:13:09,346 :INFO :test_one :Verifying the cart is added with the required items 
+2020-05-20 16:13:09,429 :INFO :test_one :After confirmation, proceed to place order 
+2020-05-20 16:13:10,208 :INFO :test_one :Entering discount code for verifying discount 
+2020-05-20 16:14:32,556 :INFO :test_one :Collecting all vegetable names in a list 
+2020-05-20 16:14:34,535 :INFO :test_one :Clicking only on Beans, Brinjal and Cucumber 
+2020-05-20 16:14:34,619 :INFO :test_one :Verifying the cart is added with the required items 
+2020-05-20 16:14:34,689 :INFO :test_one :After confirmation, proceed to place order 
+2020-05-20 16:14:35,467 :INFO :test_one :Entering discount code for verifying discount 
+2020-05-20 16:14:40,640 :INFO :test_one :Verifying the promom code success message 
+2020-05-20 16:14:40,812 :INFO :test_one :Selecting current country for address 
+2020-05-20 16:14:40,996 :INFO :test_one :Successfully Placed Order 

@@ -10,7 +10,7 @@ def pytest_addoption(parser):
 @pytest.fixture(scope="class")
 def setup(request):
     global driver
-    b_name= request.config.getoption("browser_name")
+    b_name = request.config.getoption("browser_name")
     if b_name == "chrome":
         driver = webdriver.Chrome(executable_path="D:\\PyCharm Community Edition 2019.3.3\\chromedriver.exe")
 
@@ -51,4 +51,4 @@ def pytest_runtest_makereport(item):
 
 
 def _capture_screenshot(name):
-        driver.get_screenshot_as_file(name)
+       driver.get_screenshot_as_file(name)

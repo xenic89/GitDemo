@@ -16,7 +16,7 @@ class Baseclass:
         element = WebDriverWait(self.driver, 7).until(expected_conditions.presence_of_element_located((By.CLASS_NAME, text)))
 
     def dropdown(self, text):
-        element = Select(self.driver.find_element_by_css_selector(text))
+        element = Select(self.driver.find_element_by_css_selector(text)).select_by_value("India")
 
     def get_Logger(self):
         loggerName = inspect.stack()[1][3]
