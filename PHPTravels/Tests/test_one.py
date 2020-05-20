@@ -4,10 +4,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from PageObjects.Homepage import Homepage
-from TestData.HomePageData import HomePageData
-from Utilities.BaseClass import BaseClass
-
+#from PageObjects.Homepage import Homepage
+#from TestData.HomePageData import HomePageData
+#from Utilities.BaseClass import BaseClass
+from PHPTravels.PageObjects.Homepage import Homepage
+from PHPTravels.TestData import HomePageData
 
 class TestOne(BaseClass):
 
@@ -18,6 +19,7 @@ class TestOne(BaseClass):
         log.info("verifying the main menu item - Women")
         homePage.women_menu().click()
         url1 = self.driver.current_url
+
         assert HomePageData.url1 in url1
         self.driver.back()
 

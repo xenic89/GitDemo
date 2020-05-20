@@ -21,6 +21,7 @@ def setup(request):
         driver = webdriver.Edge(executable_path="D:\\PyCharm Community Edition 2019.3.3\\msedgedriver.exe")
 
     driver.get("https://rahulshettyacademy.com/angularpractice")
+
     driver.maximize_window()
 
     request.cls.driver = driver
